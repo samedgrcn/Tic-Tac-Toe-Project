@@ -36,6 +36,8 @@ function App(){
       setCurrentPlayer(prev => prev === "X" ? "O" : "X")
     }
     console.warn(checkWinner(newBoard));
+
+    
   }
 
   const getBox = (index) => (
