@@ -37,7 +37,6 @@ function App(){
     }
     console.warn(checkWinner(newBoard));
 
-    
   }
 
   const getBox = (index) => (
